@@ -172,3 +172,11 @@ plt.ylabel('Predicted Ratings', fontsize=14)
 plt.legend(loc='upper left', fontsize=12)  # Add a legend
 plt.grid(True)  # Add gridlines for easier interpretation
 plt.show()
+
+conclusion = """
+This movie rating prediction model can assist streaming platforms like Netflix and Disney+ in recommending 
+content and acquiring high-rated films by analyzing features like director reputation and actor ratings. 
+Film studios can estimate a movie's success before release, while review aggregators can predict performance 
+based on trends. Further enhancements, including audience sentiment analysis, could improve its accuracy.
+"""
+print(conclusion)
