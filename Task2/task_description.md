@@ -1,0 +1,5 @@
+I built a model to predict movie ratings using features like Genre, Director, Actors, Duration, and Year from an IMDb dataset of Indian movies.
+I cleaned the data by filling missing values with medians and 'Unknown' for categories, then ensured the data types were correct and removed duplicates. I analyzed trends in average ratings over the years, explored which directors had the most films, and assessed correlations between features and ratings.
+I created new features by calculating average ratings for directors and actors and encoded the 'Genre' variable for better insights. After selecting the most relevant features, I dropped those that were less predictive.
+I split the data into training and testing sets, standardized the features, and trained a Linear Regression model. The model performed well, explaining about 77% of the variability in ratings.
+There's room for improvement, and I plan to explore advanced techniques like Random Forest or Gradient Boosting while refining feature selection to enhance accuracy. It's an exciting journey ahead!
